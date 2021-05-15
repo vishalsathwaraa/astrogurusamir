@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Astroguru Samir</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+    <link href="assets/img/titleicon.png" rel="icon">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+ 
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+     <link rel="stylesheet" href="assets/css/cards-gallery.css">
+    <link rel="stylesheet" href="assets/css/txt.css">
+    <link href="assets/css/hover-min.css" rel="stylesheet">
+
+<style>
+ a:hover {
+            text-decoration: none;
+        }
+    @media (min-width: 1200px){
+.container {
+    max-width: 1500px;
+    }}</style>
+
+</head>
+
+<body>
+<?php include ('sendemail.php'); ?>
+
+<!--
+ <a href='https://www.symptoma.com/en/info/covid-19'>2019-nCoV</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=a5752fc15ad67ce5087eb5568ffd93baae405024'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/750800/t/0"></script>
+-->
+ 
+<div class="review-holder" id="close">
+
+		<div class="review-div">
+			<div class="google-div">
+				<a target="_blank" href="https://bit.ly/3cG3jYe">
+					<img class="img-fluid"  src="assets/img/Google.png" alt="google">
+				</a>
+			</div>
+			<a target="_blank" href="https://bit.ly/3cG3jYe">
+				<div class="review-content">
+					<p class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+					<p class="rating"><strong>4.9 Star Rating</strong>by Google</p>
+				</div>
+			</a>
+			<i class="fa fa-times-circle-o review-cross" onclick="myFunction()"></i>
+		</div>			
+	</div>
+	
+ <script>
+function myFunction(){
+document.getElementById("close").style.visibility = 'hidden';
+}
+</script>
+   
+    <!-- ======= Header ======= -->
+    <header id="header" style="background-image: linear-gradient(to top, #f9a515, #f78e03, #f47500, #f05b07, #eb3a12)">
+<div class="container">
+            <div class="logo float-left">
+
+                <a href="#"><img src="assets/img/logo5.png" alt="" class="img-fluid"></a> </div>
+ <span class="topcontact"><i class="fa fa-phone"></i><a href="tel:+91 9898571874"> +91 9898571874</a></span>
+
+
+            <nav class="nav-menu float-right d-none d-lg-block">
+                <ul>
+                    <li ><a href="#" >Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav><!-- .nav-menu -->
+</div>
+       
+    </header>
+    <!-- End Header -->
+    <?php echo $alert; ?>
+    <!-- ======= Hero Section ======= -->
+    
+    <section id="hero" >
+
+        <div class="hero-container">
+            <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+                <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+                <div class="carousel-inner" role="listbox">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active banner" style="background-image: url('assets/img/slide/slide-1.jpg') ">
+                        <div class="carousel-container">
+                            <div class="carousel-content container">
+                                <h2 class="animate__animated animate__fadeInDown">Astroguru <span>Samir</span></h2>
+                                <p class="animate__animated animate__fadeInUp">The question of all questions for humanity, the problem which lies behind all others and is more interesting than any of them, is that of the determination of man's place in nature and his relation to the cosmos.</p>
+                                <a href="#contact" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contact US</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item" style="background-image: url('assets/img/slide/slide-2.jpg');">
+                        <div class="carousel-container">
+                            <div class="carousel-content container">
+                                <h2 class="animate__animated animate__fadeInDown">Curing Mental Stress With Astrology</h2>
+                                <p class="animate__animated animate__fadeInUp">Stress and Anxiety in a horoscope is something to do with sun and moon, because sun represents heart and moon mind. Meditation or daily prayer for large duration is the only chance to handle this situations. If a person stressed out for easily that is to say for a small piece of work then he / she must do yoga on regular basis.</p>
+                                <a href="#contact" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contact US</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item" style="background-image: url('assets/img/slide/slide-3.jpg');">
+                        <div class="carousel-container">
+                            <div class="carousel-content container">
+                                <h2 class="animate__animated animate__fadeInDown">Happy Marriage Life</h2>
+                                <p class="animate__animated animate__fadeInUp">Astrological study of birth chart reveals , the physical characterstics, mental aptitude or nature of sopuse, background of inlaws family, happy or troubled married life, joy or sorrow from progeny etc. We at Astroshastra tried to present the planetary combinations in horoscope responsible for early or late marriage , happy married life or strangled one.</p>
+                                <a href="#contact" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contact US</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="carousel-item" style="background-image: url('assets/img/slide/slide-4.jpg');">
+                        <div class="carousel-container">
+                            <div class="carousel-content container">
+                                <h2 class="animate__animated animate__fadeInDown">Predicting Opportunity for Success</h2>
+                                <p class="animate__animated animate__fadeInUp">Astrology is the science of Timing. If you know when the window of opportunity is going to open for you, you can time your efforts to maximize your potential for success.The knowledge of the timing, coordinated with your efforts, increases your chances of obtaining the desired result.</p>
+                                <a href="#contact" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contact US</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+        </div>
+    </section><!-- End Hero -->
+
+ 
+
+        <!-- ======= About Us Section ======= -->
+
+
+        <section style=" background-image: linear-gradient(to top, #f9a515, #f78e03, #f47500, #f05b07, #eb3a12); height:100%" class="about text-gray-700 body-font" id="about">
+            <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col" style="    padding-top: 3rem;">
+ <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center" src='assets/img/samir.jpg'>
+                <div class="text-center lg:w-2/3 w-full">
+                    <h1 data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">ASTROGURU SAMIR</h1>
+                    <p data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0"  class="mb-8 leading-relaxed txt" style="padding:5px; line-height: 2.0; font-size: 18px; ">
+                   
+                        I am Samir Kadiya certified astrologer specialized in vastu and Horoscope Reading. 
+                        <br><br>
+  You can trust me entirely in offering top-notch and safe Astrology Services at the most reasonable price.
+                        <br><br>
+                        You can contact me for your better future. I can help you in any problem like financial, job, marriage, divorce, depression, matchmaking, vastu shastra. I do analysis of the kundli for the positive and negative effect in it and can give you remedy which is not expensive. Also anyone can do it in daily routine. So you can get the maximum benefit of it. Just a phone call away if you want to change your life. Thank you.'</p>
+                        <div  class="flex justify-center">
+                            <button class="inline-flex text-black-700 bg-white border-0 py-2 px-6 focus:outline-none hvr-sweep-to-right rounded text-lg" onClick="parent.open('https://g.page/astroguru-samir?share')">Google</button>
+                            <button class="ml-4 inline-flex text-gray-700 bg-white border-0 py-2 px-6 focus:outline-none hvr-sweep-to-left rounded text-lg" onClick="parent.open('https://www.justdial.com/Ahmedabad/Astroguru-Samir-Opposite-Atmaram-Park-Isanpur/079PXX79-XX79-180323131904-I1J1_BZDET')">Justdial</button>
+                        </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- End About Us Section -->
+
+
+        <!-- ======= Counts Section ======= -->
+        <section class="counts section-bg">
+            <div class="container" style="margin:auto">
+                    <div class="text-center"  >
+                        <div class="count-box" style=' background-image: linear-gradient(to bottom, #f9a515, #f78e03, #f47500, #f05b07, #eb3a12)'>
+                            <i  style="margin-left:-12px" class="icofont-simple-smile"></i>
+                            <span style="color:black">500+</span>
+                            <p style='font-size: 25px'> Happy Clients</p>
+                        </div>
+                    </div>
+            </div>
+        </section><!-- End Counts Section -->
+
+        
+        <section style="background-image: linear-gradient(to top, #f9a515, #f78e03, #f47500, #f05b07, #eb3a12)" class="gallery">
+         
+            <section  id="gallery" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" class="gallery-block cards-gallery">
+                <div class="container">
+                    <div class="heading">
+                        <h2>Cards Gallery</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0 transform-on-hover">
+                                <a class="lightbox" href="img/stress.jpg">
+                                    <img src="img/stress.jpg" alt="Card Image" class="card-img-top">
+                                </a>
+                                <div class="card-body">
+                                    <h6><a href="#">Business Problem Solution</a></h6>
+                                    <p class="text-muted card-text">Now end your every kind of the business problem by accepting astrology as its genuine solution that makes you to get success in your business avoiding all the troubles.</p>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0 transform-on-hover">
+                                <a class="lightbox" href="img/marriage.jpg">
+                                    <img src="img/marriage.jpg" alt="Card Image" class="card-img-top">
+                                </a>
+                                <div class="card-body">
+                                    <h6><a href="#">Love Marriage Specialist</a></h6>
+                                    <p class="text-muted card-text">It is easy to fell in love but to take the responsibility for getting married is not easy one can consult love marriage specialist.</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="col-md-6 col-lg-4">
+                            <div class="card border-0 transform-on-hover">
+                                <a class="lightbox" href="img/money.jpg">
+                                    <img src="img/money.jpg" alt="Card Image" class="card-img-top">
+                                </a>
+                                <div class="card-body">
+                                    <h6><a href="#">Financial Problem Solution</a></h6>
+                                    <p class="text-muted card-text">Make your financial problems to get end from your life and improve it as soon as possible by performing some genuine and powerful remedies suggested by an expert astrologer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0 transform-on-hover">
+                                <a class="lightbox" href="img/job.jpg">
+                                    <img src="img/job.jpg" alt="Card Image" class="card-img-top">
+                                </a>
+                                <div class="card-body">
+                                    <h6><a href="#">Selecting a Career through Astrology</a></h6>
+                                    <p class="text-muted card-text">If you do not choose a Suitable Career, You will face problem in your professional Life. You will not Get Success and Satisfaction Easily. So,I am going to guide you about profession from the astrological point of view.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0 transform-on-hover">
+                                <a class="lightbox" href="img/lovestress1.jpg">
+                                    <img src="img/lovestress1.jpg" alt="Card Image" class="card-img-top">
+                                </a>
+                                <div class="card-body">
+                                    <h6><a href="#">Divorce Problem</a></h6>
+                                    <p class="text-muted card-text">Divorce Problem of the biggest problem people are facing today is divorce. The issue of divorce and increasing rates in the modern world</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0 transform-on-hover">
+                                <a class="lightbox" href="img/study.jpg">
+                                    <img src="img/study.jpg" alt="Card Image" class="card-img-top">
+                                </a>
+                                <div class="card-body">
+                                    <h6><a href="#">Foreign Education</a></h6>
+                                    <p class="text-muted card-text">
+Every meritorious student has a dream to study abroad, but they do not know if this dream can be achieved or not?The chances of international education can be predicted through the detailed study of the horoscope of a concerned person.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+            <script>
+                baguetteBox.run('.cards-gallery', {
+                    animation: 'slideIn'
+                });
+
+            </script>
+        </section><!-- End Services Section -->
+    
+    
+    
+    <a style="cursor:pointer" href="https://api.whatsapp.com/send?phone=919898065323&text=Hi%20There!"><div class="wsapp" style='background:black'><img style="height:205px; object-fit:contain;  width:100vw" src="assets/img/wsapp.png" alt="contact" ></div></a>
+    
+    <section id='services'>
+    <div class="d-md-flex h-md-100 align-items-center" style="background-image: linear-gradient(to bottom, #f9a414, #e98e04, #ea7209, #e95218, #e52626)">
+        <a id='services'></a>
+        <!-- First Half -->
+
+        <div class="col-md-6 p-0 h-md-100">
+            <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0" class="text-white d-md-flex align-items-left h-100 p-5 text-center justify-content-center">
+                <div class="logoarea pt-5 pb-5">
+                    <img class="img" width="400px" height="400px" src="assets/img/horoscope.png" style="display: initial" alt="horoscope">
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Half -->
+
+        <div class=" p-0 h-md-100" data-aos="fade-zoom-left" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
+            <div class="d-md-align-items-top h-md-100 justify-content-center top" style="padding-top: 45px">
+                <h2>Our Services Area</h2>
+
+                Astrologer Samir kadiya Provide Services For Different Problems
+                <br>
+
+                <ul style="list-style-type: none; display: inline-block; margin-top:10px">
+                    <li><i class="fa fa-angle-right"></i> Finance Problems</li>
+                    <li><i class="fa fa-angle-right"></i> Love Problems</li>
+                    <li><i class="fa fa-angle-right"></i> Family Problems</li>
+                    <li><i class="fa fa-angle-right"></i> Business Problem</li>
+                    <li><i class="fa fa-angle-right"></i> Divorce Problem</li>   
+                  
+
+                </ul>
+                <ul style="list-style-type: none; display:inline-block;">
+                    <li><i class="fa fa-angle-right"></i> Job Problems</li>
+                    <li><i class="fa fa-angle-right"></i> Late Marriage Problem</li>
+                    <li><i class="fa fa-angle-right"></i> Relationship Problem</li>  
+                    <li><i class="fa fa-angle-right"></i> Career Problem</li>          
+                    
+                    <li><i class="fa fa-angle-right"></i> Health Problem</li>
+         
+                </ul>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+    </section>
+
+    <!-- ======= Contact Us Section ======= -->
+    <div style="height:100%; padding-bottom:18px; background-image: linear-gradient(to top, #e5a816, #e98e04, #ea7209, #e95218, #e52626)">
+        <section data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" id="contact" class="w3-padding-70 w3-content w3-text-white contact" style="padding-top:45px">
+            <h2>Contact Us</h2>
+            <hr style="width:100%;" class="w3-opacity style-two">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Ahmedabad, India</p>
+                <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone : +91 9898065323</p>
+                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email : sami5680@gmail.com</p>
+            </div><br>
+            <p style="text-align: left">Let's get in touch. Send me a message:</p>
+
+            <form action="" method="post" onsubmit="return validation()">
+                <p><input class="w3-input w3-padding-16" type="text" id="namevalue" placeholder="Name *" required autocomplete="off" name="Name"></p>
+                <span id="nameerror" style="color:white; font-weight:bold"></span>
+                <p><input class="w3-input w3-padding-16" type="number" id="phonevalue" placeholder="Phone Number *" required autocomplete="off" name="Number" onKeyPress="if(this.value.length==10) return false;" /></p>
+                <span id="phoneerror" style="color:white; font-weight:bold"></span>
+                <p><input class="w3-input w3-padding-16" type="text" id="mailvalue" placeholder="Email Id *" required autocomplete="off" name="Email"></p>
+                <span id="emailerror" style="color:white; font-weight:bold"></span>
+                <p><input class="w3-input w3-padding-16"  type="text" placeholder="Subject *" required autocomplete="off" name="Subject"></p>
+                <p><input style="height:20vh" class="w3-input w3-padding-16" type="text" autocomplete="off" placeholder="Message" required name="Message"></p>
+                <p>
+                    <button name="Submit" value="send" type="Submit" style="background:black" class="hvr-shutter-out-horizontal">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </p>
+            </form>
+       <script>
+    
+            function validation()
+            {
+                var namevalue = document.getElementById('namevalue').value;
+                var phonevalue = document.getElementById('phonevalue').value;
+                var mailvalue = document.getElementById('mailvalue').value;
+                
+                var namecheck = /^[A-Za-z. ]{3,50}$/;
+                var phonecheck = /^[0-9]{10}$/;
+                var mailcheck = /^[A-Za-z._0-9]{4,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,8}$/;
+    
+                if(namecheck.test(namevalue))
+                {
+                            document.getElementById('nameerror').innerHTML=""; 
+                }
+                else
+                {
+                     document.getElementById('nameerror').innerHTML="**Name is Invalid";
+                     return false;
+                }
+                
+                if(phonecheck.test(phonevalue))
+                {
+                            document.getElementById('phoneerror').innerHTML=""; 
+                }
+                else
+                {
+                     document.getElementById('phoneerror').innerHTML="**Phone Number is Invalid";
+                    alert('Phone Number is invalid');
+                    return false;
+                }
+            
+                if(mailcheck.test(mailvalue))
+                {
+                            document.getElementById('emailerror').innerHTML=""; 
+                }
+                else
+                {
+                     document.getElementById('emailerror').innerHTML="**Email is Invalid";
+                    alert('email is invalid');
+                    return false;
+                }
+                
+            }
+                
+            </script>
+
+      <script type="text/javascript">
+    if(window.history.replaceState){
+      window.history.replaceState(null, null, window.location.href);
+    }
+    </script>
+        </section>
+    </div><!-- End Contact Us Section -->
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+
+    <footer class="page-footer font-small unique-color-dark" style=" background-image: radial-gradient(circle, #edc024, #f3a500, #f78800, #fb6500, #fc3600);">
+
+        <div style="background-color: white">
+            <div class="container">
+
+                <!-- Grid row-->
+                <div style="padding:20px" class="row d-flex align-items-center">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0">Get connected with us on social networks!</h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic" href="https://www.facebook.com/samir.kadiya" target="_blank" >
+                            <i class="fab fa-facebook-f white-text mr-4"> </i>
+                        </a>
+                        
+                        <!-- Twitter -->
+                        <a class="tw-ic" href="https://twitter.com/samirkadiya" target="_blank">
+                            <i class="fab fa-twitter white-text mr-4"> </i>
+                        </a>
+                    
+                        <!--Linkedin -->
+                        <a class="li-ic" href="https://in.linkedin.com/in/astroguru-samir-8b2515168" target="_blank">
+                            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic" href="https://instagram.com/sam_kdy" target="_blank">
+                            <i class="fab fa-instagram white-text"> </i>
+                        </a>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5">
+
+            <!-- Grid row -->
+            <div class="row mt-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold"><img src="assets/img/logo2.png"></h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipisicing elit.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a style='color:white' href="#">Home</a>
+                    </p>
+                    <p>
+                        <a style='color:white' href="#about">About Us</a>
+                    </p>
+                    <p>
+                        <a  style='color:white' href="#services">Services</a>
+                    </p>
+                    <p>
+                        <a style='color:white' href="#contact">Contact</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p style='color:white'>
+                        <i style='color:black' class="fas fa-home mr-3"></i>Ahmedabad, India</p>
+                    <p style='color:white'>
+                       <a style='cursor:pointer; color:white' href="mailto:sami5680@gmail.com"><i style='color:black' class="fas fa-envelope mr-3"></i>sami5680@gmail.com</p></a>
+                    <p style='color:white'>
+                    <a style='cursor:pointer; color:white' href="tel:+91 9898571874"><i style='color:black' class="fas fa-phone mr-3"></i> + 91 9898065323</p>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div style="z-index:1111" class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="" style="color:white">Vishal Sathwara</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <nav class="mobile-nav d-lg-none">
+        <ul>
+            <li class=""><a href="index.php">Home</a></li>
+            <li class=""><a href="#about">About Us</a></li>
+            <li class=""><a href="#services">Gallery</a></li>
+            <li><a href="#services">Services</a></li>
+            <li class=""><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <div class="number" style="margin-top:20px"><i class="fa fa-phone" style="font-size:36px; color:white"></i><br><span style="color:white;  font-size:15px;"> <a href="tel:+91 9898571874">+91 9898571874</a></span>
+            <br>
+            <i class="fa fa-envelope" style="font-size:30px; color:white"></i><br><span style="color:white;   font-size:15px;"><a href="mailto:someone@example.com">samirkadiya@gmail.com</a></span>
+        </div>
+
+        <div class="social-links" style="display: flex;
+              justify-content: center; letter-spacing: -10px;">
+            <a href="https://twitter.com/samirkadiya" class="twitter hvr-icon-spin" ><i class="icofont-twitter"></i></a>
+            <a href="https://www.facebook.com/samir.kadiya" class="facebook"><i class="icofont-facebook"></i></a>
+            <a href="https://instagram.com/sam_kdy" class="instagram"><i class="icofont-instagram"></i></a>
+            <a href="" class="skype"><i class="icofont-skype"></i></a>
+            <a href="https://in.linkedin.com/in/astroguru-samir-8b2515168" class="linkedin"><i class="icofont-linkedin"></i></a>
+        </div>
+    </nav>
+    
+</body>
+
+</html>
